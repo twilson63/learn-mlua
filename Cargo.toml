@@ -1,0 +1,11 @@
+[package]
+name = "learn-mlua"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lua-src = "546.0.0"
+mlua = { version = "0.8.9", features = ["lua54", "vendored"] }
+
+[lib]
+crate-type = ["cdylib"]
